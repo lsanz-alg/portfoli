@@ -1,0 +1,32 @@
+body{
+  background-color: pink;
+}
+
+#cabezera{
+width: auto;
+height: 100px;
+background-color: blue;
+}
+
+#contenedor{
+width: 900px;
+
+height: 700px;
+margin: 0 auto;
+background-color: green;
+}
+
+p
+{
+font-size: 40px;
+line-height: 200px;
+margin-left: 100px;
+}
+.boletes{
+width: 200px;
+height: 200px;
+margin: 10px;
+float: left;
+background-color: white;
+border-radius: 50%;
+}
