@@ -1,0 +1,192 @@
+body{
+  background-color: #002855;
+}
+
+.contenedor{
+width: auto;
+height: 190px;
+background-color: #5c677d;
+top: 300px;
+position: relative;
+}
+
+.luna{
+  background-color: #B0D0D3;
+  width: 220px;
+  position: absolute;
+  height: 220px;
+  top: -70px;
+  left: 70px;
+  border-radius: 50%;
+  }
+
+.arbol{
+width: 300px;
+height: 300px;
+background-color: #023e7d;
+position: relative;
+top: 350px;
+left: 455px;
+clip-path: polygon(48% 5%, 20% 63%, 45% 63%, 45% 85%, 53% 85%, 53% 63%, 78% 63%);
+}
+.casa{
+  width: 150px;
+  height: 150px;
+  left: 220px;
+  top: -110px;
+  position: relative;
+  background-color: #d4a373;
+}
+
+#tejado{
+  width: 200px;
+  height: 250px;
+  position: relative;
+  top:-650px;
+  left: 197px;
+  background-color: #f6bd60;
+  clip-path: polygon(50% 60%, 0% 100%, 100% 100%);
+}
+
+.petal{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+    width: 150px;
+    height: 300px;
+    border-radius: 75px/150px;
+    background:pink;
+    opacity:0.6;
+}
+
+
+
+<style>
+    .flower{
+        position: relative;
+        height: 30px;
+
+    }
+    .petal{
+        position: absolute;
+        margin: 0 auto;
+        left: 50%;
+        margin-left: 120px;
+        width: 300px;
+        height: 300px;
+        transform-origin: 0 300px;
+        transform: rotate(-45deg);
+        border-radius: 250px 0;
+        background:#f1c0e8;
+        opacity:0.4;
+    }
+    .div1{
+        animation:a1 5s ease 2s infinite alternate;
+    }
+    .div2{
+        animation:a2 5s ease 2s infinite alternate;
+    }
+    .div3{
+        animation:a3  5s ease 2s infinite alternate;
+    }
+    .div4{
+        animation:a4  5s ease 2s infinite alternate;
+    }
+    .div6{
+        animation:a5  5s ease 2s infinite alternate;
+    }
+    .div7{
+        animation:a6  5s ease 2s infinite alternate;
+    }
+    .div8{
+        animation:a7 5s ease 2s infinite alternate;
+    }
+    .div9{
+        animation:a8  5s ease 2s infinite alternate;
+    }
+
+    @keyframes a1{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-125deg);}
+    }
+    @keyframes a2{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-105deg);}
+    }
+    @keyframes a3{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-85deg);}
+    }
+    @keyframes a7{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-65deg);}
+    }
+    @keyframes a4{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(35deg);}
+    }
+    @keyframes a5{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(15deg);}
+    }
+    @keyframes a6{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-5deg);}
+    }
+    @keyframes a8{
+        from{transform: rotate(-45deg);}
+        to{transform: rotate(-25deg);}
+    }
+</style>
+
+.nube{
+  width:560px;
+  height: 400px;
+  background-color: white;
+  clip-path: polygon(11% 65%, 12% 61%, 15% 57%, 16% 55%, 18% 55%, 23% 56%, 25% 52%, 26% 50%, 29% 47%, 32% 44%, 35% 44%, 37% 47%, 39% 48%, 40% 52%, 41% 53%, 43% 53%, 46% 50%, 48% 54%, 50% 56%, 54% 57%, 56% 58%, 57% 60%, 58% 63%, 57% 67%, 56% 68%, 55% 69%, 53% 69%, 48% 69%, 45% 70%, 41% 74%, 36% 75%, 32% 74%, 29% 74%, 24% 72%, 20% 72%, 17% 73%, 14% 71%, 13% 70%, 10% 64%);
+  position: relative;
+  bottom:900px;
+  left: 200px;
+  bottom:1500px;
+  left: 100px;
+  animation: 5s infinite linear;
+
+}
+@keyframes nube {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(600px);
+  }
+}
+
+.chimenea{
+  width:30px;
+  height:50px;
+  background-color: grey;
+  position:relative;
+  bottom:320px;
+  left: 230px;
+}
+
+.humo{
+  width:110px;
+  height:110px;
+  background-color: white;
+  clip-path: polygon(35% 88%, 36% 93%, 40% 95%, 42% 95%, 48% 95%, 50% 95%, 55% 94%, 56% 93%, 59% 91%, 60% 88%, 57% 79%, 55% 77%, 50% 73%, 50% 65%, 52% 62%, 60% 57%, 62% 55%, 64% 52%, 63% 48%, 62% 41%, 60% 39%, 58% 35%, 54% 29%, 50% 26%, 44% 21%, 44% 20%, 44% 13%, 38% 9%, 35% 11%, 31% 16%, 30% 23%, 30% 32%, 31% 37%, 32% 43%, 34% 51%, 35% 58%, 32% 62%, 28% 69%, 27% 75%, 28% 77%, 30% 80%, 31% 85%);
+  bottom:550px;
+  position: relative;
+  left: 190px;
+  animation:humo 10s infinite linear;
+}
+
+@keyframes humo{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-100px);
+  }
+}
