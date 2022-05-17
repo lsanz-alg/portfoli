@@ -1,32 +1,35 @@
 body{
-  background-color: pink;
+  background-color: #76E5FC;
 }
 
+*
+{
+margin: 0;
+padding: 0;
+}
 #cabezera{
 width: auto;
-height: 100px;
-background-color: blue;
+height: 210px;
+background-color: #4BC0D9;
 }
 
-#contenedor{
-width: 900px;
-
-height: 700px;
-margin: 0 auto;
-background-color: green;
+#cabezera p{
+font-size: 90px;
+font-family: Impact;
+text-align: center;
 }
 
-p
-{
-font-size: 40px;
-line-height: 200px;
-margin-left: 100px;
+.boton{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  margin-top: 40px;
+  margin-left: 150px;
 }
-.boletes{
-width: 200px;
-height: 200px;
-margin: 10px;
-float: left;
-background-color: white;
-border-radius: 50%;
+.boton p{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
 }
