@@ -1,0 +1,133 @@
+body{
+  background-color: #FFF;
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  background-repeat: no-repeat;
+  background-position: 500px 0;
+}
+
+P{
+text-align: center;
+font-size: 18px;
+font-family: helvetica, sans-serif;
+width: 375px;
+margin-left: 25px;
+line-height: 22px;
+text-align: left;
+}
+
+h1{
+font-family: helvetica;
+text-align: left;
+margin-top: 0px
+}
+
+ul{
+list-style-type: none;
+text-align: right;
+}
+li{
+  display: inline-block;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 18px;}
+
+#uno{
+  height: 40px;
+    background-image: url("img/feedly-logo-small-black.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 10px;
+}
+
+}
+#dos{
+  background-color:#FFF;
+  height: 550px;
+  font-size: 18px;
+  line-height: 22px;
+  background-image: url();
+  background-repeat: no-repeat;
+}
+
+#tres{
+  background-color: #6C3;
+  height: 550px;
+  font-size: 18px;
+  line-height: 22px;
+  background-image: url(img/img-hero-full-list.png) ;
+  background-repeat: no-repeat;
+
+}
+
+
+#cuatro{
+  background-color: #FFF;
+  height: 500px;
+  background-image: url(img/allinone.jpg) ;
+  background-repeat: no-repeat;
+}
+
+#cinco{
+  background-color: #333333;
+ height: 500px;
+ background-image: url(img/curator-short.png);
+ background-repeat: no-repeat;
+}
+
+#seis{
+  background-color: #EEECEE;
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png) ;
+  background-repeat: no-repeat;
+}
+
+#siete{
+  background-color: #6C3;
+ height: 550PX;
+ background-image: url(img/mobile-share.png);
+ background-repeat: no-repeat;
+}
+
+#ocho{
+background-color: #EEECEE;
+height: 643px;
+background-image: url(img/anywhere.png);
+background-repeat: no-repeat;
+}
+#nueve{
+  background-color: #333333;
+  height: 200x;
+  background-image: url(img/appstore.png);
+  background-repeat:no-repeat;
+background-image: url(img/googleplay.png);
+ background-repeat: no-repeat;
+}
+
+#pie{
+  height: 150px;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 50px;
+
+}
+#pie a{
+  padding-right: 50px;
+}
+.claro{
+  color: #ccc;
+}
+#boton{
+  height: 100px;
+  width: 100px;
+background-color: rgba(255, 10, 20, 0.5);
+position: fixed;
+bottom: 0;
+right: 0;
+border-radius: 50%;
+text-align: center;
+
+}
